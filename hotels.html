@@ -1,0 +1,230 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand d-lg-none" href="#">Sedona</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse top-menu" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto top-left-menu">
+                <li class="nav-item">
+                    <span><a class="nav-link" href="index.html">ИНФОРМАЦИЯ</a></span>
+                </li>
+                <li class="nav-item">
+                    <span><a class="nav-link" href="#">ФОТО И ВИДЕО</a></span>
+                </li>
+                <li class="nav-item">
+                    <div class="nav-link top-icon">
+                        <img class="top-icon-img" src="img/top-menu-icon.png">
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <span><a class="nav-link" href="#">КАРТА ШТАТА</a></span>
+                </li>
+                <li class="nav-item">
+                    <span><a class="nav-link" href="#">ГОСТИНИЦЫ</a></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="filters">
+    <div class="filters-left">
+        <div class="infrastucture">
+            <h3>ИНФРАСТРУКТУРА:</h3>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_1" name="fill" value="pool">
+                <label for="checkbox_1">БАССЕЙН</label>
+            </div>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_2" name="fill" value="parking">
+                <label for="checkbox_2">ПАРКОВКА</label>
+            </div>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_3" name="fill" value="wi-fi">
+                <label for="checkbox_3">WI-FI</label>
+            </div>
+        </div>
+        <div class="type-of-house">
+            <h3>ТИП ЖИЛЬЯ:</h3>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_4" name="fill" value="hotel">
+                <label for="checkbox_4">ГОСТИНИЦА</label>
+            </div>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_5" name="fill" value="motel">
+                <label for="checkbox_5">МОТЕЛЬ</label>
+            </div>
+            <div class="checkbox">
+                <input class="fill-checkbox" type="checkbox" id="checkbox_6" name="fill" value="apartments">
+                <label for="checkbox_6">АПАРТАМЕНТЫ</label>
+            </div>
+        </div>
+    </div>
+    <div class="filters-right">
+        <h3>Стоимость в сутки (Р):</h3>
+        <table>
+            <tr>
+                <td>ОТ: 0</td>
+                <td>ДО: 3000</td>
+            </tr>
+        </table>
+        <div class="price-slider">
+            <div class="slider">
+                <div class="bar price-range" data-start="0" data-end="3000" style="left: 0px; width: 94%;">
+                    <div class="lp" data-pos="0"><span></span></div>
+                    <div class="rp" data-pos="1"><span></span></div>
+                </div>
+            </div>
+        </div>
+        <button class="btn">ПОКАЗАТЬ</button>
+    </div>
+</div>
+<div class="names">
+    <div class="found">
+        <h1>НАЙДЕНО: 3</h1>
+    </div>
+    <ul class="sort">СОРТИРОВКА
+        <li><a href="#">ПО ЦЕНЕ</a></li>
+        <li><a href="#">ПО ТИПУ</a></li>
+        <li><a href="#">ПО РЕЙТИНГУ</a></li>
+    </ul>
+    <div class="sort-up-down">
+        <div class="up">
+        </div>
+        <div class="down">
+        </div>
+    </div>
+</div>
+<div class="clr"></div>
+
+<div class="hotel row">
+        <div class="col-md-3 text-center">
+            <img src="img/amara-hotel.png">
+        </div>
+        <div class="col">
+            <div class="reservation">
+                <a href="#"> Amara Resort & Spa </a>
+                <h2>ГОСТИНИЦА</h2>
+                <h2 class="price">ОТ 4000 Р.</h2>
+                <div class="">
+                    <button class="details"> ПОДРОБНЕЕ</button>
+                    <button class="button-reservation">ЗАБРОНИРОВАТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+
+            <div class="rating">
+                <div class="stars">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+                <div class="mark">РЕЙТИНГ: 8,5</div>
+            </div>
+        </div>
+</div>
+
+<div class="hotel row">
+        <div class="col-md-3 text-center">
+            <img src="img/desert-hotel.png">
+        </div>
+        <div class="col">
+            <div class="reservation">
+                <a href="#">Desert Quail Inn</a>
+                <h2>МОТЕЛЬ</h2>
+                <h2 class="price">ОТ 3000 Р.</h2>
+                <div class="">
+                    <button class="details">ПОДРОБНЕЕ</button>
+                    <button class="button-reservation">ЗАБРОНИРОВАТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2 ">
+            <div class="rating">
+                <div class="stars">
+                    <div class="star"></div>
+                    <div class="star"></div>
+                    <div class="star"></div>
+                </div>
+                <div class="mark">РЕЙТИНГ: 8,9</div>
+            </div>
+        </div>
+</div>
+
+<div class="hotel row">
+
+   <div class="col-md-3 text-center ">
+       <img src="img/villas-hotel.png">
+   </div>
+    <div class="col">
+        <div class="reservation">
+            <a href="#">Villas at Poco Diablo</a>
+            <h2>АПАРТАМЕНТЫ</h2>
+            <h2 class="price">ОТ 2000 Р.</h2>
+            <div class="">
+                <button class="details">ПОДРОБНЕЕ</button>
+                <button class="button-reservation">ЗАБРОНИРОВАТЬ</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+
+        <div class="rating">
+            <div class="stars">
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+            <div class="mark">РЕЙТИНГ: 9,2</div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <div class="visitsedona">
+        <p>#VISITSEDONA</p>
+    </div>
+    <ul class="social">
+        <li><a class="twiter" href="#"></a></li>
+        <li><a class="facebook" href="#"></a></li>
+        <li><a class="youtube" href="#"></a></li>
+    </ul>
+    <div class="html-academy-div">
+        <div class="html-academy">
+            <p>WEBSITE BY</p>
+        </div>
+        <a class="logo-html">
+        </a>
+    </div>
+</footer>
+<script>
+
+
+</script>
+</body>
+</html>

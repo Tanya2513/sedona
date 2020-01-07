@@ -1,0 +1,249 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+<header>
+    <div class="top-menu">
+        <ul class="top-left-menu">
+            <li><a href="#information">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#photos">ФОТО И ВИДЕО</a></li>
+        </ul>
+        <div class="top-icon">
+            <img class="top-blue-icon" src="img/top-menu-blue.png">
+            <img class="top-icon-img" src="img/top-menu-icon.png">
+        </div>
+        <ul class="top-right-menu">
+            <li><a href="#map">КАРТА ШТАТА</a></li>
+            <li><a href="hotels.html">ГОСТИНИЦЫ</a></li>
+        </ul>
+    </div>
+</header>
+<div class="main-background" id="photos">
+    <img class="welcome" src="img/welcome.png">
+    <div class="gorgeous">
+        <img class="gorgeous-img" src="img/to_the_gorgeous.png">
+        <img class="line" src="img/line.png">
+    </div>
+    <img class="sedona" src="img/sedona.png">
+    <img class="slogan" src="img/slogan.png">
+    <img class="white" src="img/white.png">
+</div>
+<div class="about-sedona">
+    <h1>СЕДОНА — НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br>
+        ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!</h1>
+    <h3>РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ, ЧЕМ ГРАНД КАНЬОН!</h3>
+</div>
+<div class="container1" id="information">
+    <div class="left">
+        <div class="vertical-middle">
+            <h4>НАСТОЯЩИЙ<br>
+                ГОРОДОК</h4>
+            <h5>— №1 —</h5>
+            <h5>СЕДОНА — НЕ АТТРАКЦИОН<br>
+                ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ <br>
+                ЖИЗНЬ</h5>
+        </div>
+
+    </div>
+    <div class="right">
+    </div>
+</div>
+<div class="clr"></div>
+<div class="container2">
+    <div class="house">
+        <div class="i-house"></div>
+        <h4>ЖИЛЬЕ</h4>
+        <h5>РЕКОМЕНДУЕМ ПОЖИТЬ В НАСТОЯЩЕМ <br>
+            МОТЕЛЕ, ВСЕ
+            КАК В КИНО!</h5>
+    </div>
+    <div class="burger">
+        <div class="i-burger"></div>
+        <h4>ЕДА</h4>
+        <h5>ВСЕГДА ЗАКАЗЫВАЙТЕ ФИРМЕННЫЙ БУРГЕР,<br>
+            ВЫ НЕ РАЗОЧАРУЕТЕСЬ!</h5>
+    </div>
+    <div class="present">
+        <div class="i-present"></div>
+        <h4>СУВЕНИРЫ</h4>
+        <h5> НЕ ТОЛЬКО КИТАЙСКОГО, НО И МЕСТНОГО<br>
+            ПРОИЗВОДСТВА!</h5>
+    </div>
+</div>
+<div class="container3">
+    <div class="left">
+    </div>
+    <div class="right">
+        <div class="vertical-middle">
+            <h4>ТАМ ЕСТЬ <br>
+                МОСТ ДЬЯВОЛА</h4>
+            <h5>— №2 —</h5>
+            <h5>ДА, ПО НЕМУ МОЖНО ПРОЙТИ! ЕСЛИ КОНЕЧНО<br>
+                ВЫ ОСМЕЛИТЕСЬ</h5>
+        </div>
+    </div>
+</div>
+<div class="container4">
+    <div class="little-square">
+        <h4>НЕБОЛЬШАЯ ПЛОЩАДЬ</h4>
+        <h5>— №3 —</h5>
+        <h5>ВСЕ ДОСТОПРИМЕЧАТЕЛЬНОСТИ<br>
+            НАХОДЯТСЯ ОЧЕНЬ БЛИЗКО</h5>
+    </div>
+    <div class="road">
+        <h4>КРАСИВАЯ ДОРОГА</h4>
+        <h5>— №4 —</h5>
+        <h5>ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА<br>
+            СОВСЕМ НЕ СКУЧНО!</h5>
+    </div>
+    <div class="tourists">
+        <h4>МАЛО ТУРИСТОВ</h4>
+        <h5>— №5 —</h5>
+        <h5>БОЛЬШИНСТВО ЕДЕТ В ГРАНД<br>
+            КАНЬОН И ТОЛПИТСЯ ТАМ</h5>
+    </div>
+</div>
+<div class="container5">
+    <h2>ЗАИНТЕРЕСОВАЛИСЬ?</h2>
+    <h3>Укажите предполагаемые даты поездки,
+        и мы покажем вам лучшие предложения гостиниц в седоне</h3>
+    <div class="form-search">
+        <button class="btn" onclick="showForm()">ПОИСК ГОСТИННИЦЫ В СЕДОНЕ</button>
+        <form class="dropdown-form" id="search-form">
+            <div class="row">
+                <div class="left-form">
+                    <label for="datepicker1">ДАТА ВЫЕЗДА:</label>
+                </div>
+                <div class="right-form">
+                    <div class="input-wrapper">
+                        <input class="date-input" id="datepicker1" name="date" placeholder="дата выезда" type="text"
+                               value="24-APRIL-2019">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-form">
+                    <label for="datepicker">ДАТА ЗАЕЗДА:</label>
+                </div>
+                <div class="right-form">
+                    <div class="input-wrapper">
+                        <input class="date-input" id="datepicker" name="date" placeholder="дата заезда" type="text"
+                               value="7-JULY-2019">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-form">
+                    <label>ВЗРОСЛЫЕ:</label>
+                </div>
+                <div class="right-form">
+                    <div class="input-wrapper-number">
+                        <button class="btn-number" type="button" onclick="changeInput('input-adult', -1)">-</button>
+                        <input id="input-adult" class="adult" value="2" type="text">
+                        <button onclick="changeInput('input-adult', 1)" type="button" class="btn-number">+</button>
+                    </div>
+                    <label class="children-label">ДЕТИ:</label>
+                    <div class="input-wrapper-number">
+                        <button class="btn-number" type="button" onclick="changeInput('input-children', -1)">-</button>
+                        <input id="input-children" class="children" value="0" type="text">
+                        <button class="btn-number" type="button" onclick="changeInput('input-children', 1)">+</button>
+                    </div>
+                </div>
+            </div>
+            <button class="btn">НАЙТИ</button>
+        </form>
+    </div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44049.73945737208!2d-111.82220935492299!3d34.85581849398841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1574181096906!5m2!1sru!2sua"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" id="map"></iframe>
+<footer>
+    <div class="visitsedona">
+        <p>#VISITSEDONA</p>
+    </div>
+    <ul class="social">
+        <li><a class="twiter" href="#"></a></li>
+        <li><a class="facebook" href="#"></a></li>
+        <li><a class="youtube" href="#"></a></li>
+    </ul>
+    <div class="html-academy-div">
+        <div class="html-academy">
+            <p>WEBSITE BY</p>
+        </div>
+        <a class="logo-html">
+        </a>
+    </div>
+</footer>
+<script>
+
+
+    function changeInput(targetId, diff) {
+
+        var input = document.getElementById(targetId);
+        var number = Number.parseInt(input.value);
+        var result = number + diff;
+        if (result < 0) {
+            input.value = 0;
+        } else {
+            input.value = result;
+        }
+    }
+
+    function showForm() {
+        var form = document.getElementById("search-form");
+        form.classList.add("block");
+    }
+
+
+    $(document).ready(function () {
+        var config = {
+            showOn: "button",
+            dateFormat: "d-MM-yy",
+            buttonText: ""
+        };
+        var dateInput = $(".date-input");
+        dateInput.datepicker(config);
+        $("#datepicker1").datepicker(config);
+
+    });
+
+
+    // var square = {
+    //     type: 'квадрат',
+    //     length: 0,
+    //     square: function () {
+    //         return this.length * this.length;
+    //     }
+    // };
+    //
+    // var newSquare = Object.assign({}, square, {length: 6});
+    //
+    // var rectangle = {
+    //     type: 'прямоугольник',
+    //     width: 3,
+    //     height: 2,
+    //     square: function () {
+    //         return this.height * this.width;
+    //     }
+    // }
+    //
+    // var newSquaresddsd = Object.assign({}, square, {length: 6});
+    //
+    //
+    // function squareToConsole(element) {
+    //     console.log(element.type, element.square());
+    // }
+    //
+    // squareToConsole(rectangle);
+    // squareToConsole(square);
+    // squareToConsole(newSquaresddsd);
+
+</script>
+</body>
+</html>
