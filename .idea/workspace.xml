@@ -1,168 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="498f36c9-1361-4bb1-a4a5-df5b4cc91d12" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="498f36c9-1361-4bb1-a4a5-df5b4cc91d12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Advantage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Advantages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Feature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Features.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Hotel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Information.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InformationNext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Hotels.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/HotelsData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hotels.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/amara-hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/amara-hotel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/background-photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/calendar-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/calendar-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/calendar-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/calendar-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/container1-img.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/container1-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/container3-img.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/container3-img.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/desert-hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/desert-hotel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/facebook-active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/facebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/facebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/filter-background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/filter-background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-burger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-burger.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-down-dir-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-down-dir-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-down-dir-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-down-dir-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-down-dir-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-down-dir-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-house.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-house.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-present.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-present.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-up-dir-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-up-dir-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-up-dir-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-up-dir-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icon-up-dir-gray.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/icon-up-dir-gray.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_html.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo_html.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_html_active.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo_html_active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo_html_hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo_html_hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sedona.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/sedona.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slogan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/slogan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/star-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/star-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/to_the_gorgeous.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/to_the_gorgeous.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/top-menu-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/top-menu-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/top-menu-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/top-menu-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/twiter-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/twiter-active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/twiter.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/twiter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/villas-hotel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/villas-hotel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/youtube-active.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/youtube-active.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15708">
-              <caret line="924" column="30" selection-start-line="924" selection-start-column="30" selection-end-line="924" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3383">
-              <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hotels.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.container5 .btn</find>
-      <find>input-wrapper</find>
-      <find>.table-cell</find>
-      <find>right-for</find>
-      <find>table</find>
-      <find>display: ta</find>
-      <find>tab</find>
-      <find>table-cell</find>
-      <find>vertical-middl</find>
-      <find>datepicker</find>
-      <find>#search-form</find>
-      <find>,</find>
-      <find>dropdown-form</find>
-      <find>.ui</find>
-      <find>min-width</find>
-      <find>container</find>
-      <find>stars</find>
-      <find>hotel-1</find>
-      <find>.reservation</find>
-      <find>info-hotel</find>
-      <find>floa</find>
-      <find>text</find>
-      <find>star</find>
-      <find>hotel</find>
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/hotels.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="262" />
-    <option name="y" value="-17" />
-    <option name="width" value="780" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1W49lPAESK3P9V4cumN1kzNaNXZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sedona" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sedona" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="sedona" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\tpiku\OneDrive\Desktop\sedona" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="sedona" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\tpiku\OneDrive\Desktop\sedona" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="sedona" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\tpiku\OneDrive\Desktop\sedona" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML&#10;Angular2Html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/repository" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/repository" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\tpiku\OneDrive\Desktop\sedona" />
       <recent name="C:\Users\tpiku\OneDrive\Desktop\sedona\css" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -181,120 +171,45 @@
       <workItem from="1577206079274" duration="10659000" />
       <workItem from="1577443781599" duration="18671000" />
       <workItem from="1578395483221" duration="227000" />
+      <workItem from="1578398154010" duration="11499000" />
+      <workItem from="1578435277510" duration="18418000" />
+      <workItem from="1579125814223" duration="717000" />
+      <workItem from="1579133391689" duration="399000" />
+      <workItem from="1579133905874" duration="323000" />
+      <workItem from="1579267756342" duration="1150000" />
+      <workItem from="1579270570916" duration="638000" />
+      <workItem from="1579292023136" duration="14412000" />
+      <workItem from="1579859476505" duration="17211000" />
+      <workItem from="1580904482103" duration="182000" />
+      <workItem from="1581277711510" duration="676000" />
+      <workItem from="1581279520552" duration="545000" />
+      <workItem from="1581281341053" duration="588000" />
+      <workItem from="1581283152300" duration="598000" />
+      <workItem from="1581324315753" duration="523000" />
+      <workItem from="1581331605769" duration="348000" />
+      <workItem from="1581530707040" duration="509000" />
+      <workItem from="1582226201354" duration="6000" />
+      <workItem from="1583262372104" duration="30000" />
+      <workItem from="1583312008370" duration="19000" />
+      <workItem from="1588164184724" duration="1367000" />
+      <workItem from="1588192683948" duration="89000" />
+      <workItem from="1588230278178" duration="202000" />
+      <workItem from="1588696914103" duration="447000" />
+      <workItem from="1588747173816" duration="7474000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177596000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.09151786" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1376488" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/icon-house.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="188" column="24" lean-forward="true" selection-start-line="188" selection-start-column="24" selection-end-line="188" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="601" column="12" selection-start-line="601" selection-start-column="12" selection-end-line="601" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15708">
-          <caret line="924" column="30" selection-start-line="924" selection-start-column="30" selection-end-line="924" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3383">
-          <caret line="199" column="22" selection-start-line="199" selection-start-column="22" selection-end-line="199" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hotels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="32" y="23" key="CommitChangelistDialog2" timestamp="1589789225646">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="32" y="23" key="CommitChangelistDialog2/0.23.1280.734@0.23.1280.734" timestamp="1589789225646" />
+    <state x="249" y="133" key="Vcs.Push.Dialog.v2" timestamp="1589789291422">
+      <screen x="0" y="23" width="1280" height="734" />
+    </state>
+    <state x="249" y="133" key="Vcs.Push.Dialog.v2/0.23.1280.734@0.23.1280.734" timestamp="1589789291422" />
   </component>
 </project>
